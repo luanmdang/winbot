@@ -12,6 +12,23 @@
 
 llmcord transforms Discord into a collaborative LLM frontend. It works with practically any LLM, remote or locally hosted.
 
+> **Note:** This is a fork of the original [llmcord by jakobdylanc](https://github.com/jakobdylanc/llmcord). This version is configured for shared hosting among collaborators.
+
+## For Collaborators
+
+This repository contains a shared Discord bot that any collaborator can host when needed. We all use the same bot tokens and API keys, allowing anyone to run the bot on their machine.
+
+**New to the project?** See [SETUP.md](SETUP.md) for detailed setup instructions.
+
+**Quick start for collaborators:**
+1. Clone this repo
+2. Run the automated setup script (`setup.sh` or `setup.bat`)
+3. Get credentials from Luan privately
+4. Edit `config.yaml` with the credentials
+5. Run `python llmcord.py`
+
+**IMPORTANT:** Never commit `config.yaml` to GitHub. It contains sensitive credentials that must stay private.
+
 ## Features
 
 ### Reply-based chat system:
