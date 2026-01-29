@@ -6,6 +6,8 @@
 
 !*.md
 !*.py
+!*.sh
+!*.bat
 
 !Dockerfile
 !config-example.yaml
